@@ -1,8 +1,8 @@
 # config valid only for current version of Capistrano
 lock "3.7.1"
 
-set :application, 'Spa911carwash'
-set :repo_url, 'https://github.com/spa911carwash/spa911carwash.git'
+set :application, 'InsightfullTechnologies'
+set :repo_url, 'https://github.com/spa911carwash/insightfull-technologies.git'
 
 
 
