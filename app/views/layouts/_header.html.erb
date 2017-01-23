@@ -1,0 +1,25 @@
+<header id="header">
+  <div id="">
+    <div class="container">
+      <div class="row">
+        <div class="grid_12">
+          <div class="brand put-left">
+            <h1>
+                <a href="index.html">
+                		Insightfull Technologies
+                </a>
+            </h1>
+          </div>
+          <nav class="nav put-right">
+            <ul class="sf-menu">
+              <li <%= make_active_to('home') %>> <%= link_to "Home", root_path %></li>
+              <li <%= make_active_to('aboutus') %>><%= link_to "About", about_us_path %></li>
+              <li <%= make_active_to('services') %>><%= link_to "Services", services_path %></li>
+              <li <%= make_active_to('contactus') %>><%= link_to "Contacts",contact_us_path %></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>

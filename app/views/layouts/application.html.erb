@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Insightfull Technologies</title>
+  <%= stylesheet_link_tag    'application' %>
+  <%= javascript_include_tag 'application' %>
+  <!--[if lt IE 9]>
+  <div style=' clear: both; text-align:center; position: relative;'>
+      <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+          <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0"
+               height="42" width="820"
+               alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."/>
+      </a>
+  </div>
+  <script src="js/html5shiv.js"></script>
+  <link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+  <![endif]-->
+  <%= csrf_meta_tags %>
+</head>
+<body>
+	<div class="page">
+		<%= render partial: "layouts/header" %>
+		<%= yield %>
+		<%= render partial: "layouts/footer" %>
+	</div>
+</body>
+</html>
