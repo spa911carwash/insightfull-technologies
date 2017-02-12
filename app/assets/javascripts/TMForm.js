@@ -20,7 +20,7 @@ $(window).load(function(){
 					,responseMessageClass:'response-message'
 					,processingClass:'processing'
 					,onceVerifiedClass:'once-verified'
-					,mailHandlerURL:'mail/MailHandler.php'					
+					,mailHandlerURL:'contact_mail'					
 					,successShowDelay:'4000'
 					,stripHTML:true
 					,recaptchaPublicKey:''

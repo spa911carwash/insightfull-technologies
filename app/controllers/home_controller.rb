@@ -10,4 +10,7 @@ class HomeController < ApplicationController
 
   def contacts
   end
+
+  def contact_mail
+  end
 end
