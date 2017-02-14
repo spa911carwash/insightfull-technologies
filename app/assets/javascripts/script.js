@@ -148,7 +148,7 @@ $(document).ready(function () {
             {
                 navigation: true,
                 autoPlay: true,
-                slideSpeed: 300,
+                slideSpeed: 100,
                 stopOnHover: true,
                 pagination: false,
                 paginationSpeed: 400,
@@ -164,7 +164,7 @@ $(document).ready(function () {
             {
                 navigation: true,
                 autoPlay: true,
-                slideSpeed: 300,
+                slideSpeed: 100,
                 stopOnHover: true,
                 pagination: false,
                 paginationSpeed: 400,
